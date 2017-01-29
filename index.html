@@ -110,11 +110,11 @@ var to_load = ["parties.json", "grw_graz_2012_1.json", "sprengel_graz2009.json"]
 var q = d3.queue();
 to_load.forEach(function(d) 
 	{
-	q = q.defer(d3.json, d)
+	q = q.defer(d3.json, "data/" + d)
 	});
 
-q.defer(d3.tsv, "sort.txt");  //load the rest
-q.defer(d3.tsv, "bezirke_history.txt");
+q.defer(d3.tsv, "data/sort.txt");  //load the rest
+q.defer(d3.tsv, "data/bezirke_history.txt");
 
 q.awaitAll(function(error)
 	{	
