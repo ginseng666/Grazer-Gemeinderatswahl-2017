@@ -1,0 +1,16 @@
+{
+"oevp":{"color":"#191919", "kurz":"ÖVP","lang":"Österreichische Volkspartei", "lower": "#cccccc"},
+"spoe":{"color":"#C83D44", "kurz":"SPÖ", "lang":"Sozialdemokratische Partei Österreich", "lower": "#e9afb2"},
+"fpoe":{"color":"#2657A8", "kurz":"FPÖ", "lang":"Freiheitliche Partei Österreich", "lower": "#acc5ec"},
+"gruene":{"color":"#009933", "kurz":"Grüne", "lang":"Die Grünen", "lower": "#99ffbb"},
+"neos":{"color":"#B82593", "kurz":"NEOS", "lang":"NEOS", "lower": "#ff99c2"},
+"bzoe":{"color":"#FFA500", "kurz":"BZÖ", "lang":"Bündnis Zukunft Österreich", "lower": "#ffdb99"},
+"kpoe":{"color":"#900d11", "kurz":"KPÖ", "lang":"Kommunistische Partei Österreich", "lower": "#f6a2a4"},
+"piraten":{"color":"#48217d", "kurz":"Piraten", "lang":"Piratenpartei Österreich", "lower": "#c7aeea"},
+"bbb":{"color":"#f8d323", "kurz":"BBB", "lang":"Betty Balou Bande", "lower": "#fcec9c"},
+"ekw":{"color":"#8da0cb", "kurz":"EKW", "lang":"Einsparkraftwerk", "lower": "#b9c4df"},
+"wir":{"color":"#cab2d6", "kurz":"WIR", "lang":"Wir Wähler", "lower": "#d1bcdc"},
+"petr": {"color": "#b2df8a", "lang": "PETROVIC", "kurz": "PETROVIC", "lower": "#cae9af"},
+"cpg":{"color":"#e7b500", "kurz":"CPG", "lang":"Christen Partei", "lower": "#ffe999"},
+"tie":{"color":"#d3d3d3", "kurz":"unentschieden", "lower":"#d3d3d3"}
+}
