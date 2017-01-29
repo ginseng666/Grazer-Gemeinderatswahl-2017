@@ -3,12 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Gemeinderatswahl Graz 2017: Rückblick auf 2012</title>
+<title>Gemeinderatswahl Graz 2017: Rückblick auf 2012 mit offenen Daten</title>
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 <div id="container">
-<div id="logo"><span id="np"><a href="http://www.netpol.at" alt="netpol"><img src="netpol.gif" alt="netpol" /></a></span><a href="http://www.strategieanalysen.at" alt="ISA"><img src="isa.gif" alt="ISA" /></a></div>
 <div id="desc">Gemeinderatswahl Graz 2012: Bezirks-Rückblick</div>
 <div id="buttons">Sortieren: 
 <select id="auswahl" onchange="reorder(this.value)">
@@ -30,8 +29,8 @@ Anteil EU-BürgerInnen und Durchschnittsalter basierend auf der Gesamtbevölkeru
 St. Peter enthält auch alle Stimmen der vorgezogenen Stimmabgabe. Diese sind aus dem Bezirksergebnis herausgerechnet und separat ausgewiesen.<br />
 Quellen: Alle Daten CC by 3.0 <a href="https://www.data.gv.at/auftritte/?organisation=stadt-graz">Stadt Graz</a>. JSON der Sprengelergebnisse von der <a href="https://offenewahlen-api.herokuapp.com/index" alt="Offene Wahlen API">Offene Wahlen API</a> (Stefan Kasberger)</div>
 </div>
-<script src="../../scripts/d3/d3.min.js"></script>
-<script src="../../scripts/topojson.js"></script>
+<script src="scripts/d3/d3.min.js"></script>
+<script src="scripts/topojson.js"></script>
 <script>
 var map = {"ts": {}, "raw": {}};  //variables for the map
 var daten = {"sprengel": {}, "bezirke": {}, "parteien": ["oevp", "kpoe", "spoe", "fpoe", "gruene", "piraten"], "meta": {}, "total": [], "sort_by": [], "tree": [], "sonder": {}};  //one variable to store all data; note that the parties are already defined in the right order - this could be done programmatically, but requires additional loops and may be unnecessary as the result is already known
