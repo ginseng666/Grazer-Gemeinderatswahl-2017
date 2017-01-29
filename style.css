@@ -12,21 +12,9 @@ width: 97vw;
 margin: 0 auto 0 auto;
 }
 
-#logo
-{
-width: 99%;
-text-align: right;
-padding-top: 5px;
-}
-
 #infos
 {
 font-size: 11px;
-}
-
-#np
-{
-padding-right: 5px;
 }
 
 #buttons
