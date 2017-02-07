@@ -6,4 +6,7 @@ Da auf Bezirks- und Sprengelebene keine Wahlkarten sowie keine vorzeitig abgegeb
 
 Vorerst wird das Ergebnis der Gemeinderatswahl 2012 verwendet, die Daten zu den Bezirken sind ebenfalls Stand 2012. Nach der Wahl am 5. Februar 2017 folgen (hoffentlich) die aktuellen Resultate.
 
+Version 2012: http://vis.strategieanalysen.at/graz_bezirke2012/
+Version 2017: http://vis.strategieanalysen.at/graz_bezirke/
+
 Die Darstellungen basieren auf d3js, alle Daten stammen von [https://data.gv.at](https://data.gv.at).
